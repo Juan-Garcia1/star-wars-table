@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  background: black url("http://dodskypict.com/D/Star-Wars-Wallpaper-On-Wallpaper-Hd-4-1920x1080.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#app {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: yellow;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 3px;
+  overflow: hidden;
+  word-break: normal;
+  color: white;
+  font-weight: bold;
+  background: black;
+}
+.tg td:hover {
+  background: yellow;
+  color: black;
+}
+
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: yellow;
+  overflow: hidden;
+  word-break: normal;
+  font-weight: bold;
+  color: white;
+}
+
+.tg .tg-yw4l {
+  vertical-align: top;
+}
+
+#pagination {
+  margin-top: auto;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: none;
+  border: solid 2px yellow;
+  color: yellow;
+  font-weight: bold;
+  cursor: pointer;
+}
+#pagination button:hover {
+  background: yellow;
+  color: black;
+}
